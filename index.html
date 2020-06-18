@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="NVG">
+		<meta name="description" content="Drumkit for Javascript30">
+
+		<title>Javascript Drumkit</title>
+
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="styles.css">
+
+
+	</head>
+
+	<body>
+
+		<div class="keys">
+			<div data-key="65" class="key">
+				<kbd>A</kbd>
+				<span class="sound">Camera</span>
+			</div>
+
+			<div data-key="83" class="key">
+				<kbd>S</kbd>
+				<span class="sound">Coin</span>
+			</div>
+
+			<div data-key="68" class="key">
+				<kbd>D</kbd>
+				<span class="sound">Rupee</span>
+			</div>
+		</div>
+
+		<audio data-key="65" src="sounds/camera.mp3"></audio>
+		<audio data-key="83" src="sounds/coin.mp3"></audio>
+		<audio data-key="68" src="sounds/rupee.wav"></audio>
+
+		<!-- JAVASCRIPT -->
+		<script src="script.js"></script>
+	</body>
+
+</html>
